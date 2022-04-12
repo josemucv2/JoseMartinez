@@ -9,23 +9,35 @@
 </head>
 <body>
 
-     <nav class='style-nav error'>
-    <a class="style-name-developer no-links-name" href="/index.html">
+     <nav class='style-nav error' >
+    <a class="style-name-developer style-name-developer-mobile no-links-name" href="/index.html">
       <p>Jose Martinez</p>
       <p class='description error'>Front-end web developer</p>
     </a>
     
-
-     <ul class="style-list-nav">
+    <ul class="style-list-nav nav-bar-desktop">
        <li class="style-items-list"><a href="/index.html" class="no-links">Home</a></li>
-       <li class="style-items-list"><a href="../HTML/Project.html" class="no-links">Projects</a></li>
-       <li class="style-items-list"><a href="../HTML/contact.html" class="no-links">Contact</a></li>
+       <li class="style-items-list"><a href="./Project.html" class="no-links">Projects</a></li>
+       <li class="style-items-list"><a href="./contact.html" class="no-links">Contact</a></li>
      </ul>
-   </nav>
+     
+       <div class="nav-bar-mobile">
+         <div class="openMain">Menu</div>
+
+         <ul class="desactive">
+          <li class="style-items-list-mobile"><a href="/index.html" class="no-links">Home</a></li>
+          <li class="style-items-list-mobile"><a href="./Project.html" class="no-links">Projects</a></li>
+          <li class="style-items-list-mobile"><a href="./contact.html" class="no-links">Contact</a></li>
+         </ul>
+       </div>
+    </nav>
 
    <main class="style-main">
        aqui van los proyectos
    </main>
      <footer class="style-footer">Copyright &copy; Jose Martinez</footer>
-</body>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/Portfolio/JS/App.js"></script>
+    </body>
 </html>
