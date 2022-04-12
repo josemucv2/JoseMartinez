@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.style-nav{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.522);
+
+  
+}
+
+.style-list-nav{
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    color: white;
+}
+
+.style-items-list{
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Dancing Script',
+    cursive;
+    height:40px;
+}
+
+.style-list-icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.box-icons{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.size-list-icons{
+    width:144px; 
+    height:144px;
+}
+
+.style-items-list:hover{
+     border-bottom: 2px solid white;
+     color: rgba(255, 255, 255, 0.707);
+}
+.style-name-developer {
+    margin: 5px 15px 15px 120px;
+    padding: 20px 28px 35px 28px;
+    font-size: 40px;
+    font-family: 'Dancing Script',
+    cursive;
+    height:40px;
+    cursor: pointer;
+}
+.style-name-developer:hover{
+    border-bottom: 2px solid white;
+  color: rgba(255, 255, 255, 0.707)
+    
+}
+
+.style-main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+
+.description{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.no-links{
+    text-decoration: none;
+     color: white;
+}
+.no-links:hover {
+   
+    color: rgba(255, 255, 255, 0.707);
+}
+.no-links-name {
+    text-decoration: none;
+    color:white;
+
+}
+
+.typing {
+    
+    text-align: center;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 3.2rem;
+    margin: 0 auto;
+    font-family: 'Dancing Script',
+    cursive;
+    
+  
+}
+
+
+
+
+
+.style-footer{
+    
+   border-top: 1px solid rgba(255, 255, 255, 0.522);
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: 50px;
+}
+
+
+.button-about-me{
+    background-color: rgba(114, 114, 114, 0.33);
+    color: white;
+    padding: 18px;
+    display:flex;
+    font-size: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+  -webkit-box-shadow:5px 5px 25px 0px #bdbdbd;
+  -moz-box-shadow:5px 5px 25px 0px #bdbdbd;
+  box-shadow:5px 5px 25px 0px #bdbdbd;
+  text-shadow:2px 5px 4px #919191;
+  text-align:center;
+}
+
+.button-about-me:hover{
+    background-color: rgba(255, 255, 255, 0.522);
+    transition:background-color 0.3s ease-in 0s;
+    color: black;
+     transition: color 0.2s ease-in 0s;
+    text-shadow:2px 5px 2px #8f8f8f
+}
+
+
+.text-about {
+     font-family: 'Dancing Script',
+     cursive;
+    font-size: 3.2rem;
+}
+
+.margin-icon{
+    margin-left: 10px;
+    margin-top: 10.5px;
+}
+
+
+.no-links-button{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.position-button{
+    display: flex;
+    margin: 50px 10px 10px 200px;
+
+}
+
+
+
+
+.name-lenguages {
+    text-align: center;
+    font-family: 'Dancing Script',
+    cursive;
+    font-size: 30px;
+
+}
+
+.rotateInDownLeft {
+  -webkit-animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes rotateInDownLeft {
+  0% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }
+  @keyframes rotateInDownLeft {
+  0% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  } 
+
+  .fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+  .fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
+
+
+  
+
+  @media screen and (max-width: 768px) {
+      
+      .nav-bar-desktop {
+          display: none;
+      }
+
+      .style-name-developer-mobile{
+        margin: 5px 15px 15px 5px;
+        padding: 20px 28px 35px 28px;
+        font-size: 25px;
+        font-family: 'Dancing Script', cursive;
+        height:40px;
+        cursor: pointer
+    }
+
+    .typing-mobile{
+      
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .position-button-mobile{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 40px 0px 40px 0px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .size-list-icons-mobile{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .name-lenguages-mobile{
+        font-size: 24px;
+        
+    }
+
+    .style-main-mobile{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+  }
+
+  .nav-bar-mobile {
+    display: none;
+    margin: 20px;
+    
+  }
+
+  .desactive {
+      display: none;
+      border: 1px solid white;
+      padding: 15px;
+      border-top: none;
+      border-radius: 1rem;
+      background-color: rgba(255, 255, 255, 0.303);
+
+  }
+
+  .active {
+      display: block;
+  }
+
+  .openMain{
+    color: white;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 15px;
+    text-align: center;
+    width: 78px;
+  }
+
+  .style-items-list-mobile{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    list-style-type: none;
+    padding: 5px;
+  }
