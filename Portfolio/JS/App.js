@@ -3,8 +3,9 @@ $(document).ready(() => {
     $('.disclaimer').css('display', 'none');
     
     const width = $(window).width();
+ 
     
-    if(width < 768){
+    if((width < 768) || (width < 800)) {
         
         $(".openMain").click(() =>{
             $('.desactive').slideToggle('fast');
@@ -16,6 +17,7 @@ $(document).ready(() => {
         $('.sub-title-developer').append('Desarrollo Web')
         $('.sub-title-javascript').append('Javascript')
         $('.sub-title-React').append('React.js')
+      
     }
     
     $('.project-ecommerce').hover(
@@ -62,6 +64,7 @@ $(document).ready(() => {
             function(){
                 $(this).find('a').remove();
             })
+
 })
 
 

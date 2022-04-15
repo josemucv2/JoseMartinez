@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +10,7 @@ body {
   background-color: black;
   color: white;
   width: 100%;
-  height: 100vh;
+ 
 }
 .fa {
   padding: 30px;
@@ -21,7 +23,8 @@ body {
     opacity: 0.7;
 }
 .sub-title-social-media{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
+
     font-size: 20px;
     text-align: center;
     margin: 10px;
@@ -29,45 +32,64 @@ body {
 .list-style-social-media-contact {
     width: 100%;
     text-align: center;
+    list-style-type: none;
 }
+
 .fa-facebook {
   background: #3B5998;
   color: white;
+  border:1px solid white;
+  border-radius: 1rem;
+
+  
   
 }
 .fa-twitter {
-  background: #55ACEE;
+  background: #3B5998;
   color: white;
+  border:1px solid white;
+  border-radius: 1rem;
 }
 .fa-google {
-  background: #dd4b39;
+ background: #3B5998;
   color: white;
+  border:1px solid white;
+  border-radius: 1rem;
 }
 .fa-linkedin {
-  background: #007bb5;
+  background: #3B5998;
   color: white;
+  border:1px solid white;
+  border-radius: 1rem;
 }
 .fa-github{
-    background: white;
-    color: black;
+    background: #3B5998;
+    color: white;
+    border:1px solid white;
+  border-radius: 1rem;
 }
 .fa-instagram {
-  background: #125688;
+  background: #3B5998;
   color: white;
+  border:1px solid white;
+  border-radius: 1rem;
 }
 .fa-whatsapp{
-    background: rgba(3, 224, 3, 0.705);
+    background: #3B5998;
     color: white;
+    border:1px solid white;
+    border-radius: 1rem;
 }
 .fa-whatsapp-contact{
    width: 200px;
 }
 .box-social-media{
-    width: 50%;
+    width: 40%;
     margin-top: 50px;
 }
 .contact-me{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
+
     font-size: 60px;
     text-align: center;
     margin: 10px;
@@ -76,11 +98,14 @@ body {
     list-style-type: none; 
     display: flex; 
     justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
     
 }
 .style-social-media-title {
     margin-bottom: 20px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
+
     font-size: 45px;
 }
 .style-nav{
@@ -102,20 +127,24 @@ body {
     list-style-type: none;
     font-size: 30px;
     cursor: pointer;
-    font-family: 'Dancing Script',
-    cursive;
+    font-family: 'Bree Serif', serif;
+
     height:40px;
 }
 .style-list-icons{
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
-    width: 50%;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 .box-icons{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+    flex-wrap: wrap;
 }
 .size-list-icons{
     width:144px; 
@@ -129,19 +158,27 @@ body {
     margin: 5px 15px 15px 120px;
     padding: 20px 28px 35px 28px;
     font-size: 40px;
-    font-family: 'Dancing Script',
-    cursive;
+    font-family: 'Bree Serif', serif;
+
     height:40px;
     cursor: pointer;
 }
 .style-name-developer:hover{
     border-bottom: 2px solid white;
-    color: rgba(255, 255, 255, 0.707)
+  color: rgba(255, 255, 255, 0.707)
     
 }
 .style-main{
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
+}
+
+.size-logo-rrss{
+    font-size:50px;
+    
 }
 .description{
     font-size: 15px;
@@ -159,14 +196,14 @@ body {
     text-decoration: none;
     color:white;
 }
+
 .typing {
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 3.2rem;
-    margin: 0 auto;
-    font-family: 'Dancing Script',
-    cursive;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -175,13 +212,20 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.522);
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+.icons-contex{
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 25px;
 }
 .button-about-me{
     background-color: rgba(114, 114, 114, 0.33);
     color: white;
-    padding: 18px;
+    padding: 15px;
     display:flex;
     font-size: 50px;
     border-radius: 1rem;
@@ -200,9 +244,8 @@ body {
     text-shadow:2px 5px 2px #8f8f8f
 }
 .text-about {
-     font-family: 'Dancing Script',
-     cursive;
-    font-size: 3.2rem;
+     font-family: 'Bree Serif', serif;
+     font-size: 3.2rem;  
 }
 .no-links-button{
     text-decoration: none;
@@ -215,8 +258,7 @@ body {
 }
 .name-lenguages {
     text-align: center;
-    font-family: 'Dancing Script',
-    cursive;
+    font-family: 'Bree Serif', serif;
     font-size: 30px;
 }
 .rotateInDownLeft {
@@ -337,7 +379,8 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
+
 }
 .text-about-me{
     font-size: 3.2rem;
@@ -418,15 +461,13 @@ body {
     border: 1px solid white;
     border-radius: 1rem;
     font-size: 25px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
+
     background-color: rgba(21, 21, 21, 0.787);
     color: white;
 }
 .button-image:hover{
     color: white;
-}
-.style-main-project {
-    height: 100vh;
 }
 .box-project{
     display: flex;
@@ -441,23 +482,35 @@ body {
 }
 .description-project{
     width: 500px;
-    height: 220px;
+    height: 300px;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
     font-size: 25px;
 }
+.style-list-certificate{
+    list-style-type: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-bottom: 60px;
+    
+}
 .position-text-description{
-    margin: 10px;
+    margin: 0  10px 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    
 }
 .maring-hr{
     margin:10px;
     opacity: 0.5;
 }
 .experience{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
+
     width:800px;
     font-size: 30px;
 }
@@ -495,6 +548,8 @@ body {
     border-radius: 1rem;
     margin: 85px 85px 15px 85px;
 }
+
+
 .img-developer:hover{
       opacity: 0.7;
       cursor: pointer;
@@ -517,11 +572,10 @@ body {
     align-items: center;
 }
 .certificate-title{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bree Serif', serif;
     font-size: 30px;
-    margin: 10px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 
@@ -533,21 +587,29 @@ body {
         height: 200px;
         background-image: url(/Portfolio/img/coderhouse.png);
     }
+    .size-logo-rrss-mobile{
+        font-size: 30px;
+    }
     .sub-title-developer{
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Bree Serif', serif;
+
         font-size: 30px;
         text-align: center;
     }
     .sub-title-javascript{
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Bree Serif', serif;
+
         font-size: 30px;
         text-align: center;
     }
     .sub-title-React{
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Bree Serif', serif;
+
         font-size: 30px;
         text-align: center;
     }
+
+    
     .img-javascript-movil{
         width: 220px;
         height: 200px;
@@ -559,14 +621,16 @@ body {
         background-image: url(/Portfolio/img/coderhouse.png);
     }
     .experience-mobile{
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Bree Serif', serif;
+
         width:700px;
         font-size: 30px;
         text-align: center;
         padding: 20px;
     }
     .contact-me-mobile{
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Bree Serif', serif;
+
         font-size: 40px;
         text-align: center;
         margin: 50px 10px 10px 10px;
@@ -580,17 +644,19 @@ body {
         margin: 85px 85px 15px 85px;
     }
     .description-project-mobile{
-        width: 350px;
-        height: 250px;
+        width: 100%;
+        height: 100%;
         text-align: center;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Bree Serif', serif;
         font-size: 25px;
+        padding: 0px 70px 0 70px;
     }
     .center-mobile{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
     .project-landingPage-mobile{
         width: 300px;
@@ -609,31 +675,25 @@ body {
     .nav-bar-desktop {
         display: none;
     }
-    .name{
-        font-family: 'Dancing Script', cursive;
-        font-size: 30px;
-        text-align: center;
-        margin: 5px;
-    }
     .style-name-developer-mobile{
-        margin: 5px;
-        padding: 5px;
-        font-size: 25px;
-        font-family: 'Dancing Script', cursive;
-        width: 100%;
-        height: 100%;
+        margin: 5px 15px 15px 5px;
+        padding: 20px 28px 35px 28px;
+        font-size: 20px;
+        font-family: 'Bree Serif', serif;
         cursor: pointer
     }
+    
     .typing-mobile{
         width: 100%;
-        font-size: 30px;
+        font-size: 1.5rem;
+        margin: 10px;
         
     }
     .position-button-mobile{
         display: flex;
         width: 100%;
         justify-content: center;
-        margin: 5px 0px 5px 0px;
+        margin: 5px 0px 25px 0px;
         padding: 0;
     }
     .sub-title-social-media-mobile{
@@ -651,14 +711,18 @@ body {
         width: 100%;
         height: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        margin-top: 10px;
     }
     .about-me-style-mobile{
         display: flex;
         justify-content: flex-start !important;
         width: 100%;
         height: 100%;
-        margin-top:  100px;
+        margin-top: 40px;
+        padding: 0px 20px 0 15px;
     }
     .text-about-me-mobile{
         text-align: center;
@@ -673,7 +737,8 @@ body {
         color: white;
         text-align: center;
         font-size: 20px;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Bree Serif', serif;
+
         list-style-type: none;
         padding: 5px;
     }
@@ -685,9 +750,53 @@ body {
         margin: 0;
     }
     .box-social-media-mobile{
-         margin :10px;
+         width: 100%;
         }
     }
+
+   @media only screen and (min-width: 768px) and (max-width: 1024px) {
+     .style-name-developer-tablet{
+         margin: 25px 5px 0 30px;
+         padding: 0;
+         font-size: 30px;
+         width: 200px;
+         height: 100%;
+     }
+     .style-name-developer-tablet:hover{
+         border: none;
+     }
+     .style-nav-tablet{
+         display: flex;
+         justify-content: space-around;
+     }
+
+     .box-social-media-tablet{
+         width: 100%;
+     }
+
+     .box-project-tablet{
+         
+         display: flex;
+         flex-direction: column;
+
+     }
+      
+     .style-list-nav-tablet{
+         margin: 0;
+         padding: 0;
+     }
+
+     .style-items-list-tablet{
+         padding: 25px 0px 15px 10px;
+         margin: 0px 15px 15px 0px;
+     }
+
+     .description-tablet{
+         text-align: start;
+     }
+     
+   }
+
 
   
   

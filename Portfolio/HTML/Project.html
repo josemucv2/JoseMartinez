@@ -9,16 +9,16 @@
 </head>
 <body>
   
-  <nav class='style-nav error'>
+  <nav class='style-nav style-nav-tablet'>
     <a class="style-name-developer style-name-developer-mobile  style-name-developer-tablet no-links-name" href="/index.html">
-      <p class="name">Jose Martinez</p>
-      <p class='description error'>Front-end web developer</p>
+      <p>Jose Martinez</p>
+      <p class='description description-tablet'>Front-end web developer</p>
     </a>
     
-    <ul class="style-list-nav nav-bar-desktop ">
-      <li class="style-items-list"><a href="/index.html" class="no-links">Home</a></li>
-      <li class="style-items-list"><a href="./Project.html" class="no-links">Projects</a></li>
-      <li class="style-items-list"><a href="./contact.html" class="no-links">Contact</a></li>
+    <ul class="style-list-nav nav-bar-desktop style-list-nav-tablet">
+      <li class="style-items-list style-items-list-tablet"><a href="/index.html" class="no-links">Home</a></li>
+      <li class="style-items-list style-items-list-tablet"><a href="./Project.html" class="no-links">Projects</a></li>
+      <li class="style-items-list style-items-list-tablet"><a href="./contact.html" class="no-links">Contact</a></li>
     </ul>
     
     <div class="nav-bar-mobile">
@@ -32,8 +32,13 @@
     </div>
   </nav>
 
-   <main class="style-main">
-     <div class="box-project box-project-mobile fadeIn">
+   <main class="style-main style-main-mobile style-main-tablet">
+     <div class="certificate-title fadeIn">
+        <h2 style="text-decoration:underline">Projects</h2>
+      </div>
+      
+     <div class="box-project box-project-mobile box-project-tablet fadeIn">
+       
        <div class="center-mobile">
          <div class="project-ecommerce project-ecommerce-mobile"></div>
          <div class="position-text-description">
@@ -56,22 +61,24 @@
           </div>
         </div>
       </div>
-      <hr class="maring-hr">
+      
       
       <div class="certificate-title fadeIn">
-        <h2>Certificates</h2>
+        <h2 style="text-decoration:underline">Certificates</h2>
       </div>
       
-      <ul style="list-style-type: none; display: flex; flex-wrap: wrap; justify-content: center;">
+      <ul class="style-list-certificate">
         <li class="img-developer fadeIn img-developer-movil"></li>
         <span class="sub-title-developer"></span>
         <li class="img-javascript fadeIn img-javascript-movil"></li>
         <span class="sub-title-javascript"></span>
         <li class="img-React fadeIn img-React-movil"></li>
         <span class="sub-title-React"></span>
+        <li class="img-Frontend fadeIn img-Frontend-movil"></li>
+        <span class="sub-title-frontend"></span>
       </ul>
       
-      <hr class="maring-hr">
+     
       
       <div class="position-eperience position-eperience-mobile fadeIn">
         <p class="experience experience-mobile">I know you think, I don't have much experience, and it may be true, but, 
