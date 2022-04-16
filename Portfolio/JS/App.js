@@ -22,7 +22,7 @@ $(document).ready(() => {
     
     $('.project-ecommerce').hover(
         function(){ 
-            $(this).append($('<a href="https://projectcoderecommerce.netlify.app" class="go-to-page"><button class="button-image">Go to Page</button></a>'));
+            $(this).append($('<a href="https://projectcoderecommerce.netlify.app" class="go-to-page"><button class="button-image" style="background-color: green">Go to Page</button></a>'));
         },
         
         function(){
@@ -31,7 +31,7 @@ $(document).ready(() => {
         
         $('.project-landingPage').hover(
             function(){ 
-                $(this).append($('<a href="https://josemucv2.github.io/landingpage/" class="go-to-page"><button class="button-image">Go to Page</button></a>'));
+                $(this).append($('<a href="https://josemucv2.github.io/landingpage/" class="go-to-page"><button class="button-image" style="background-color: green">Go to Page</button></a>'));
             },
             
             function(){
@@ -40,7 +40,7 @@ $(document).ready(() => {
             
     $('.img-developer').hover(
         function(){ 
-            $(this).append($('<a href="https://latam.coderhouse.com/certificados/6130e1c8b05a7a00115695c8" class="go-to-page"><button class="button-image">Go to Page</button></a>'));
+            $(this).append($('<a href="https://latam.coderhouse.com/certificados/6130e1c8b05a7a00115695c8" class="go-to-page"><button class="button-image" style="background-color: green">Go to Page</button></a>'));
         },
         
         function(){
@@ -49,7 +49,7 @@ $(document).ready(() => {
         
         $('.img-javascript').hover(
             function(){ 
-                $(this).append($('<a href="https://latam.coderhouse.com/certificados/618feed74bd4ae00271927b5" class="go-to-page"><button class="button-image">Go to Page</button></a>'));
+                $(this).append($('<a href="https://latam.coderhouse.com/certificados/618feed74bd4ae00271927b5" class="go-to-page"><button class="button-image" style="background-color: green">Go to Page</button></a>'));
             },
         
         function(){
@@ -58,7 +58,7 @@ $(document).ready(() => {
         
         $('.img-React').hover(
             function(){ 
-                $(this).append($('<a href="https://latam.coderhouse.com/certificados/6213cd53adfa9b003f5bd763" class="go-to-page"><button class="button-image">Go to Page</button></a>'));
+                $(this).append($('<a href="https://latam.coderhouse.com/certificados/6213cd53adfa9b003f5bd763" class="go-to-page"><button class="button-image" style="background-color: green">Go to Page</button></a>'));
             }, 
             
             function(){
