@@ -1,3 +1,5 @@
+
+
 $(document).ready(() => {
     
     $('.disclaimer').css('display', 'none');
@@ -17,6 +19,7 @@ $(document).ready(() => {
         $('.sub-title-developer').append('Desarrollo Web')
         $('.sub-title-javascript').append('Javascript')
         $('.sub-title-React').append('React.js')
+        $(".icons-size").css('width', '70px');
       
     }
     
@@ -64,6 +67,8 @@ $(document).ready(() => {
             function(){
                 $(this).find('a').remove();
             })
+
+            $
 
 })
 
