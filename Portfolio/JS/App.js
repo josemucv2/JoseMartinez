@@ -67,10 +67,12 @@ $(document).ready(() => {
             function(){
                 $(this).find('a').remove();
             })
-
-            $
-
-})
+            
+   
+            
+            
+            
+        })
 
 
 
