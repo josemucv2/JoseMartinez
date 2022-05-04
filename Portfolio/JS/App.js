@@ -25,20 +25,24 @@ $(document).ready(() => {
     
     $('.project-ecommerce').hover(
         function(){ 
+            $(this).text('');
             $(this).append($('<a href="https://projectcoderecommerce.netlify.app" class="go-to-page"><button class="button-image" style="background-color: green">Go to Page</button></a>'));
         },
         
         function(){
             $(this).find('a').remove();
+            $(this).text('E-commerce');
         })
         
         $('.project-landingPage').hover(
             function(){ 
+                $(this).text('');
                 $(this).append($('<a href="https://josemucv2.github.io/landingpage/" class="go-to-page"><button class="button-image" style="background-color: green">Go to Page</button></a>'));
             },
             
             function(){
                 $(this).find('a').remove();
+                $(this).text('Landing Page');
             })
             
     $('.img-developer').hover(
