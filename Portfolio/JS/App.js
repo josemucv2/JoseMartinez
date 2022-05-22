@@ -16,9 +16,6 @@ $(document).ready(() => {
         
         $('.nav-bar-mobile').css('display', 'block');
         $(".add-et").append('<br/>')
-        $('.sub-title-developer').append('Desarrollo Web')
-        $('.sub-title-javascript').append('Javascript')
-        $('.sub-title-React').append('React.js')
         $(".icons-size").css('width', '70px');
       
     }
