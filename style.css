@@ -487,6 +487,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .go-to-page{
     text-decoration: none;
@@ -538,28 +539,32 @@ body {
     width: 500px;
 }
 .img-developer{
-    width: 450px;
-    height: 380px;
-    background-image: url(/Portfolio/img/DesarrolloWeb.png);
+    width: 250px;
+    height: 200px;
     border: 1px solid white;
     border-radius: 1rem;
     margin: 85px 85px 15px 85px;
+    background-color: rgba(77, 77, 77, 0.512);
+}
+.react{
+    text-align: center;
+    padding: 15px;
 }
 .img-javascript{
-    width: 450px;
-    height: 380px;
-    background-image: url(/Portfolio/img/JavaScript.png);
+    width: 250px;
+    height: 200px;
     border: 1px solid white;
     border-radius: 1rem;
     margin: 85px 85px 15px 85px;
+    background-color: rgba(77, 77, 77, 0.512);
 }
 .img-React{
-    width: 450px;
-    height: 380px;
-    background-image: url(/Portfolio/img/React.js.png);
+    width: 250px;
+    height: 200px;
     border: 1px solid white;
     border-radius: 1rem;
     margin: 85px 85px 15px 85px;
+    background-color: rgba(77, 77, 77, 0.512);
 }
 
 
