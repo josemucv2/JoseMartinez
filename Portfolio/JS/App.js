@@ -3,8 +3,7 @@ $(document).ready(() => {
     $('.disclaimer').css('display', 'none');
     
     const width = $(window).width();
- 
-    
+   
     if((width < 768) || (width < 800)) {
         
         $(".openMain").click(() =>{
